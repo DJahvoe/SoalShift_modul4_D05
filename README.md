@@ -1,4 +1,4 @@
-#SOAL1
+#SOAL1 \n
 Semua nama file dan folder harus terenkripsi
 Enkripsi yang Atta inginkan sangat sederhana, yaitu Caesar cipher . Namun, Kusuma
 mengatakan enkripsi tersebut sangat mudah dipecahkan. Dia menyarankan untuk
@@ -6,7 +6,7 @@ character list diekspansi,tidak hanya alfabet, dan diacak. Berikut character lis
 dipakai:
 qE1~ YMUR2"`hNIdPzi%^t@(Ao:=CQ,nx4S[7mHFye#aT6+v)DfKL$r?bkOGB>}!9_wV']jcp5JZ&Xl|\8s;g<{3.u*W-0`
 
-#SOAL2
+#SOAL2 \n
 rgabung ( joined ) dan diletakkan dalam folder “Videos”
 Urutan operasi dari kebutuhan ini adalah:
 a. Tepat saat sebelum file system di- mount
@@ -36,7 +36,7 @@ file pecahan yang terdapat di root directory file system
 ii.
 Hapus folder “Videos”
 
-#SOAL3
+#SOAL3 \n
 Sebelum diterapkannya file system ini, Atta pernah diserang oleh hacker
 LAPTOP_RUSAK yang menanamkan user bernama “chipset” dan “ic_controller” serta
 group “rusak” yang tidak bisa dihapus. Karena paranoid, Atta menerapkan aturan pada
@@ -50,7 +50,7 @@ menyimpan nama file, group ID, owner ID, dan waktu terakhir diakses dalam file
 lalu menghapus “file bahaya” tersebut untuk mencegah serangan lanjutan dari
 LAPTOP_RUSAK.
 
-#SOAL4
+#SOAL4 \n
 Pada folder YOUTUBER, setiap membuat folder permission foldernya akan otomatis
 menjadi 750. Juga ketika membuat file permissionnya akan otomatis menjadi 640 dan
 ekstensi filenya akan bertambah “ .iz1 ”. File berekstensi “ .iz1 ” tidak bisa diubah
@@ -58,7 +58,7 @@ permissionnya dan memunculkan error bertuliskan “ File ekstensi iz1 tidak bole
 permissionnya. ”
 5. Ketika mengedit
 
-#SOAL5
+#SOAL5 \n
 Ketika mengedit suatu file dan melakukan save, maka akan terbuat folder baru bernama
 Backup kemudian hasil dari save tersebut akan disimpan pada backup dengan nama
 namafile_[timestamp].ekstensi. Dan ketika file asli dihapus, maka akan dibuat folder
