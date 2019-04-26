@@ -1,3 +1,5 @@
+# SoalShift_modul4_D05
+
 #SOAL1 <br>
 Semua nama file dan folder harus terenkripsi
 Enkripsi yang Atta inginkan sangat sederhana, yaitu Caesar cipher . Namun, Kusuma
@@ -5,6 +7,14 @@ mengatakan enkripsi tersebut sangat mudah dipecahkan. Dia menyarankan untuk
 character list diekspansi,tidak hanya alfabet, dan diacak. Berikut character list yang
 dipakai:
 qE1~ YMUR2"`hNIdPzi%^t@(Ao:=CQ,nx4S[7mHFye#aT6+v)DfKL$r?bkOGB>}!9_wV']jcp5JZ&Xl|\8s;g<{3.u*W-0`
+
+- Problem : Enkripsi nama file dan folder
+
+- Tools : <br/>
+  - Fungsi C
+  - Caesar Cipher : 'qE1~ YMUR2"`hNIdPzi%^t@(Ao:=CQ,nx4S[7mHFye#aT6+v)DfKL$r?bkOGB>}!9_wV']jcp5JZ&Xl|\8s;g<{3.u*W-0'
+- Approach : <br/>
+Untuk melakukan enkripsi pada file atau folder, perlu dibuat suatu fungsi (dalam hal ini fungsi 'caesar()'). Konsep dalam fungsi tersebut adalah fungsi akan menerima parameter dalam bentuk string dan juga key (yang menjadi patokan ke arah mana character pada string tersebut akan di-shift). saat nilai key diterima, maka apabila character pada string input ditemukan pada 'Caesar Cipher', index nya akan digeser sebanyak 'key', dan character yang sekarang akan diganti dengan character yang baru sesuai dengan index pada 'Caesar Cipher'.
 
 #SOAL2 <br>
 rgabung ( joined ) dan diletakkan dalam folder “Videos”
@@ -57,6 +67,15 @@ ekstensi filenya akan bertambah “ .iz1 ”. File berekstensi “ .iz1 ” tida
 permissionnya dan memunculkan error bertuliskan “ File ekstensi iz1 tidak boleh diubah
 permissionnya. ”
 5. Ketika mengedit
+
+- Problem : Set otomatis permission di dalam directory "YOUTUBER" sesuai dengan syarat soal
+- Tools : <br/>
+  - mkdir
+  - xmp_getattr
+  - xmp_mkdir
+  - xmp_create
+- Approach : <br/>
+Untuk melakukan set otomatis permission, perlu dicek di masing - masing fungsi xmp_mkdir dan xmp_create apakah benar file atau folder dibuat di dalam directory "'YOUTUBER'" atau bukan, dan untuk di dalam xmp_mkdir dibuat menjadi 0750, untuk di dalam xmp_create dibuat menjadi 0640 dengan penambahan ekstensi '.iz1'.
 
 #SOAL5 <br>
 Ketika mengedit suatu file dan melakukan save, maka akan terbuat folder baru bernama
